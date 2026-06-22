@@ -19,7 +19,7 @@ const Sidebar = ({changebg , open}) => {
 
   return (
     <div   style={{ left: open ? "0" : "-50%" }} className={`left-0 fixed  top-14   w-28   md:w-60  h-[calc(100vh-56px)] overflow-y-auto   ${changebg ? "bg-black text-white" : "bg-white text-black"} `}>
-{/* Side Icon or Text */}
+{/* Side Icon or Text in Sidebar */}
 <div className='flex   ml-3 text-xl ' >
   <button className='flex items-center border rounded-md text-xl gap-3 w-52 py-2  px-1   mt-4 border-none hover:bg-neutral-500'>
   <MdHome className='text-3xl' />
