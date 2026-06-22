@@ -21,7 +21,7 @@ const Hero = ({changebg}) => {
 
       {/* Card 2 */}
       <div className='leading-7 hover:bg-[#216fe42c] transition duration-300 rounded-lg'>
-        <img onClick={()=>{navigate ('/hero/video')}} className='w-full h-56 object-cover rounded' src={'/gaming.png'} alt="" />
+        <img onClick={()=>{navigate ('/video')}} className='w-full h-56 object-cover rounded' src={'/gaming.png'} alt="" />
 
         <div className='flex items-start mt-5 gap-2  '>
           <FaUserCircle className=' text-3xl text-purple-500' />
@@ -34,7 +34,7 @@ const Hero = ({changebg}) => {
 
       {/* Card 3 */}
       <div className='leading-7 hover:bg-[#e483212c] transition duration-300 rounded-lg'>
-        <img onClick={()=>{navigate ('/hero/video')}} className='w-full h-56 object-cover rounded' src={'/vlog.png'} alt="" />
+        <img onClick={()=>{navigate ('/video')}} className='w-full h-56 object-cover rounded' src={'/vlog.png'} alt="" />
         <div className='flex items-start mt-5 gap-2  '>
           <FaUserCircle className=' text-3xl text-red-500' />
           <h1 className='  font-bold text-lg '>Spend The Day With Me 🦋 | Daily Vlog.   </h1>
@@ -46,7 +46,7 @@ const Hero = ({changebg}) => {
 
       {/* Card 4 */}
       <div className='leading-7 hover:bg-[#e483212c] transition duration-300 rounded-lg'>
-        <img onClick={()=>{navigate ('/hero/video')}} className='w-full h-56 object-cover rounded' src={'/food.png'} alt="" />
+        <img onClick={()=>{navigate ('/video')}} className='w-full h-56 object-cover rounded' src={'/food.png'} alt="" />
         <div className='flex items-start mt-5 gap-2  '>
           <FaUserCircle className=' text-3xl text-blue-500' />
           <h1 className='  font-bold text-lg '>Spicy Noodle recipe 😋 🔥 | Must try. </h1>
@@ -58,7 +58,7 @@ const Hero = ({changebg}) => {
       {/* Card 5 */}
 
       <div className='leading-7 hover:bg-[#38e4212c] transition duration-300 rounded-lg'>
-        <img onClick={()=>{navigate ('/hero/video')}} className='w-full h-56 object-cover rounded' src={'/math.png'} alt="" />
+        <img onClick={()=>{navigate ('/video')}} className='w-full h-56 object-cover rounded' src={'/math.png'} alt="" />
         <div className='flex items-start mt-5 gap-2  '>
           <FaUserCircle className=' text-3xl text-green-500' />
           <h1 className='  font-bold text-lg  '>All Calculation Tricks in One Video | Master <br />  Addition, Subtraction,  Multiplication,<br />  Square/Cube Root.</h1>
@@ -70,7 +70,7 @@ const Hero = ({changebg}) => {
       {/* Card 6 */}
 
       <div className='leading-7 hover:bg-[#215fe42c] transition duration-300 rounded-lg'>
-        <img onClick={()=>{navigate ('/hero/video')}} className='w-full h-56 object-cover rounded' src={'/coding.png'} alt="" />
+        <img onClick={()=>{navigate ('/video')}} className='w-full h-56 object-cover rounded' src={'/coding.png'} alt="" />
         <div className='flex items-start mt-5 gap-2  '>
           <FaUserCircle className=' text-3xl text-pink-500' />
           <h1 className='  font-bold text-lg '>FULL STACK WEB DEVELOPMENT COURSE.</h1>
@@ -82,7 +82,7 @@ const Hero = ({changebg}) => {
       </div>
        {/* Card 7 */}
       <div className='leading-7 hover:bg-[#e483212c] transition duration-300 rounded-lg'>
-        <img onClick={()=>{navigate ('/hero/video')}}  className='w-full h-56 object-cover rounded' src={'/pihu.PNG'} alt="" />
+        <img onClick={()=>{navigate ('/video')}}  className='w-full h-56 object-cover rounded' src={'/pihu.PNG'} alt="" />
         <div className='flex items-start mt-5 gap-2  '>
           <FaUserCircle className=' text-3xl text-pink-600' />
           <h1 className='  font-bold text-lg '>ROOM MEIN KYA MILA | Ep 811 | Surprise <br /> Room Check | Aayu and Pihu Show.</h1>
@@ -94,7 +94,7 @@ const Hero = ({changebg}) => {
       </div>
        {/* Card 8 */}
       <div className='leading-7 hover:bg-[#e483212c] transition duration-300 rounded-lg'>
-        <img onClick={()=>{navigate ('/hero/video')}} className='w-full h-56 object-cover rounded' src={'/painting.png'} alt="" />
+        <img onClick={()=>{navigate ('/video')}} className='w-full h-56 object-cover rounded' src={'/painting.png'} alt="" />
         <div className='flex items-start mt-5 gap-2  '>
           <FaUserCircle className=' text-3xl text-blue-200' />
           <h1 className='  font-bold text-lg '>Cute & Asthetic Painting Ideas ✨🌷 .</h1>
@@ -106,7 +106,7 @@ const Hero = ({changebg}) => {
       </div>
        {/* Card 9 */}
       <div className='leading-7 hover:bg-[#e483212c] transition duration-300 rounded-lg'>
-        <img onClick={()=>{navigate ('/hero/video')}} className='w-full h-56 object-cover rounded' src={'/makeup.PNG'} alt="" />
+        <img onClick={()=>{navigate ('/video')}} className='w-full h-56 object-cover rounded' src={'/makeup.PNG'} alt="" />
         <div className='flex items-start mt-5 gap-2  '>
           <FaUserCircle className=' text-3xl text-purple-200' />
           <h1 className='  font-bold text-lg '>Most Relaxing Makeup 💄 | ASMR videos.</h1>
@@ -118,7 +118,7 @@ const Hero = ({changebg}) => {
       </div>
        {/* Card 10 */}
       <div className='leading-7 hover:bg-[#e483212c] transition duration-300 rounded-lg' >
-        <img onClick={()=>{navigate ('/hero/video')}} className='w-full h-56 object-cover rounded' src={'/ramadan.png'} alt="" />
+        <img onClick={()=>{navigate ('/video')}} className='w-full h-56 object-cover rounded' src={'/ramadan.png'} alt="" />
         <div className='flex items-start mt-5 gap-2  '>
           <FaUserCircle className=' text-3xl text-red-700' />
           <h1 className='  font-bold text-lg '>Ramadan Mubarak to all of the Muslims.   </h1>
@@ -130,7 +130,7 @@ const Hero = ({changebg}) => {
       </div>
        {/* Card 11 */}
       <div className='leading-7 hover:bg-[#e483212c] transition duration-300 rounded-lg'>
-        <img onClick={()=>{navigate ('/hero/video')}} className='w-full h-56 object-cover rounded' src={'/cartoon.png'} alt="" />
+        <img onClick={()=>{navigate ('/video')}} className='w-full h-56 object-cover rounded' src={'/cartoon.png'} alt="" />
         <div className='flex items-start mt-5 gap-2  '>
           <FaUserCircle className=' text-3xl text-pink-600' />
           <h1 className='  font-bold text-lg '>Animals Stories in English | Improve your <br /> English. </h1>
@@ -142,7 +142,7 @@ const Hero = ({changebg}) => {
       </div>
        {/* Card 12 */}
       <div className='leading-7 hover:bg-[#e483212c] transition duration-300 rounded-lg'>
-        <img onClick={()=>{navigate ('/hero/video')}} className='w-full h-56 object-cover rounded' src={'/portfolio.png'} alt="" />
+        <img onClick={()=>{navigate ('/video')}} className='w-full h-56 object-cover rounded' src={'/portfolio.png'} alt="" />
         <div className='flex items-start mt-5 gap-2  '>
           <FaUserCircle className=' text-3xl text-sky-700' />
           <h1 className='  font-bold text-lg '>Create A Portfolio Website Using HTML , CSS <br /> & JavaScript. </h1>
@@ -154,7 +154,7 @@ const Hero = ({changebg}) => {
       </div>
        {/* Card 13 */}
       <div className='leading-7 hover:bg-[#e483212c] transition duration-300 rounded-lg'>
-        <img onClick={()=>{navigate ('/hero/video')}} className='w-full h-56 object-cover rounded' src={'/vlog2.png'} alt="" />
+        <img onClick={()=>{navigate ('/video')}} className='w-full h-56 object-cover rounded' src={'/vlog2.png'} alt="" />
         <div className='flex items-start mt-5 gap-2  '>
           <FaUserCircle className=' text-3xl text-amber-500' />
           <h1 className='  font-bold text-lg '>A Day In My Life 🌷 | Daily Vlog . </h1>
