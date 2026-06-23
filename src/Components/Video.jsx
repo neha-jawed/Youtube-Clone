@@ -9,10 +9,9 @@ const Video = ({ changebg }) => {
 {/* Rigth Video */}
 
 <div className='ml-10  flex-[2]  '>
-``
-      <video className='w-11/12  rounded-2xl  mt-28' src={'/video.mp4'} controls ></video>
+      <video className='md:w-11/12 w-[500px]  rounded-2xl  mt-28' src={'/video.mp4'} controls ></video>
 
-      <h1 className='text-2xl font-bold'>Serenity of Nature: Flowing Water & Green Escape</h1>
+      <h1 className='lg:text-2xl  font-bold'>Serenity of Nature: Flowing Water & Green Escape</h1>
 
       <div className=' mt-5 gap-2  flex  items-start   '>
         <FaUserCircle className='  text-3xl ' />
@@ -34,84 +33,79 @@ const Video = ({ changebg }) => {
 
 
 {/* Left Suggestion */}
+<div className='w-full md:w-[380px] lg:w-[450px] flex flex-col gap-4 mt-6 md:mt-28 px-3 md:px-0'>
 
-    <div className=' w-[450px] md:ml-0  ml-5 md:mr-12 flex  flex-col gap-5 mt-28'>
-
-      <div className='shrink-0 flex'>
-        <img className='w-56 object-cover rounded ' src={'/travel.png'} alt="" />
-
-        <div className='ml-2 mt-5  '>
-          <FaUserCircle className=' text-3xl text-pink-500' />
-        </div>
-        <div className='mt-5  ml-1'>
-          <h1 className='  font-bold  '>Pakistan Travel Guide 2026 | Must Visit Places!</h1>
-
-          <h4 className=' text-neutral-400'>Travel bro</h4>
-          <h4 className=' text-neutral-400'>2.4M views &bull; 1 month ago </h4>
-        </div>
-        </div>
-
-      <div className='shrink-0 flex'>
-        <img className='w-56 object-cover rounded' src={'/gaming.png'} alt="" />
-       
-               <div className='mt-5 ml-2  '>
-                 <FaUserCircle className=' text-3xl text-purple-500' />
-               </div>
-               <div className='mt-5  ml-1'>
-                 <h1 className='  font-bold '>Free Fire Battle Ground 🔥 | Live in Hindi. </h1>
-       
-               <h4 className=' text-neutral-400'>Game Play</h4>
-               <h4 className=' text-neutral-400'>1M views &bull; 1 year ago </h4>
-               </div>
-        </div>
-      <div className='shrink-0 flex'>
-        <img className='w-56 object-cover rounded' src={'/vlog.png'} alt="" />
-       
-               <div className='mt-5 ml-2  '>
-                 <FaUserCircle className=' text-3xl text-red-500' />
-               </div>
-               <div className='mt-5  ml-1'>
-                 <h1 className='  font-bold '>Spend The Day With Me 🦋 | Daily Vlog. </h1>
-       
-               <h4 className=' text-neutral-400'>CIA RODRIGUEZ</h4>
-               <h4 className=' text-neutral-400'>105k views &bull; 3 week ago </h4>
-               </div>
-        </div>
-      <div className='shrink-0 flex'>
-        <img className='w-56 object-cover rounded' src={'/food.png'} alt="" />
-       
-               <div className='mt-5 ml-2  '>
-                 <FaUserCircle className=' text-3xl text-blue-500' />
-               </div>
-               <div className='mt-5  ml-1'>
-                 <h1 className='  font-bold '>Spicy Noodle recipe 😋 🔥 | Must try. </h1>
-       
-               <h4 className=' text-neutral-400'>Food Fusion</h4>
-               <h4 className=' text-neutral-400'>15k views &bull;  5 hour ago </h4>
-               </div>
-        </div>
-      <div className='shrink-0 flex'>
-        <img className='w-56 object-cover rounded' src={'/painting.png'} alt="" />
-       
-               <div className='mt-5 ml-2  '>
-                 <FaUserCircle className=' text-3xl text-blue-300' />
-               </div>
-               <div className='mt-5  ml-1'>
-                 <h1 className='  font-bold '>Cute & Asthetic Painting Ideas ✨🌷. </h1>
-       
-               <h4 className=' text-neutral-400'>Painting With Myself</h4>
-               <h4 className=' text-neutral-400'>10k views &bull;  1 hour ago </h4>
-               </div>
-        </div>
-
-
+  {/* Card 1 */}
+  <div className='flex flex-col md:flex-row gap-2'>
+    <img className='w-full md:w-44 lg:w-56 h-44 md:h-28 object-cover rounded flex-shrink-0' src={'/travel.png'} alt="" />
+    <div className='flex gap-1 min-w-0'>
+      <FaUserCircle className='text-2xl text-pink-500 mt-1 flex-shrink-0' />
+      <div className='min-w-0'>
+        <h1 className='font-bold text-sm leading-snug line-clamp-2'>Pakistan Travel Guide 2026 | Must Visit Places!</h1>
+        <h4 className='text-neutral-400 text-xs mt-1'>Travel bro</h4>
+        <h4 className='text-neutral-400 text-xs'>2.4M views &bull; 1 month ago</h4>
       </div>
+    </div>
+  </div>
 
+  {/* Card 2 */}
+  <div className='flex flex-col md:flex-row gap-2'>
+    <img className='w-full md:w-44 lg:w-56 h-44 md:h-28 object-cover rounded flex-shrink-0' src={'/gaming.png'} alt="" />
+    <div className='flex gap-1 min-w-0'>
+      <FaUserCircle className='text-2xl text-purple-500 mt-1 flex-shrink-0' />
+      <div className='min-w-0'>
+        <h1 className='font-bold text-sm leading-snug line-clamp-2'>Free Fire Battle Ground 🔥 | Live in Hindi.</h1>
+        <h4 className='text-neutral-400 text-xs mt-1'>Game Play</h4>
+        <h4 className='text-neutral-400 text-xs'>1M views &bull; 1 year ago</h4>
+      </div>
+    </div>
+  </div>
+
+  {/* Card 3 */}
+  <div className='flex flex-col md:flex-row gap-2'>
+    <img className='w-full md:w-44 lg:w-56 h-44 md:h-28 object-cover rounded flex-shrink-0' src={'/vlog.png'} alt="" />
+    <div className='flex gap-1 min-w-0'>
+      <FaUserCircle className='text-2xl text-red-500 mt-1 flex-shrink-0' />
+      <div className='min-w-0'>
+        <h1 className='font-bold text-sm leading-snug line-clamp-2'>Spend The Day With Me 🦋 | Daily Vlog.</h1>
+        <h4 className='text-neutral-400 text-xs mt-1'>CIA RODRIGUEZ</h4>
+        <h4 className='text-neutral-400 text-xs'>105k views &bull; 3 week ago</h4>
+      </div>
+    </div>
+  </div>
+
+  {/* Card 4 */}
+  <div className='flex flex-col md:flex-row gap-2'>
+    <img className='w-full md:w-44 lg:w-56 h-44 md:h-28 object-cover rounded flex-shrink-0' src={'/food.png'} alt="" />
+    <div className='flex gap-1 min-w-0'>
+      <FaUserCircle className='text-2xl text-blue-500 mt-1 flex-shrink-0' />
+      <div className='min-w-0'>
+        <h1 className='font-bold text-sm leading-snug line-clamp-2'>Spicy Noodle recipe 😋 🔥 | Must try.</h1>
+        <h4 className='text-neutral-400 text-xs mt-1'>Food Fusion</h4>
+        <h4 className='text-neutral-400 text-xs'>15k views &bull; 5 hour ago</h4>
+      </div>
+    </div>
+  </div>
+
+  {/* Card 5 */}
+  <div className='flex flex-col md:flex-row gap-2'>
+    <img className='w-full md:w-44 lg:w-56 h-44 md:h-28 object-cover rounded flex-shrink-0' src={'/painting.png'} alt="" />
+    <div className='flex gap-1 min-w-0'>
+      <FaUserCircle className='text-2xl text-blue-300 mt-1 flex-shrink-0' />
+      <div className='min-w-0'>
+        <h1 className='font-bold text-sm leading-snug line-clamp-2'>Cute & Asthetic Painting Ideas ✨🌷.</h1>
+        <h4 className='text-neutral-400 text-xs mt-1'>Painting With Myself</h4>
+        <h4 className='text-neutral-400 text-xs'>10k views &bull; 1 hour ago</h4>
+      </div>
+    </div>
+  </div>
+
+</div>
 </div>
   
 
    {/* Comment Seaction*/}
-<div className='ml-10 '>
+<div className='ml-10 hidden md:block'>
       <h1 className='mt-6 text-2xl font-medium '>173 Comments </h1>
 
       <div className='mt-5'>

@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom'
 const Hero = ({changebg}) => {
   const navigate = useNavigate();
   return (
-    <div className={`mb-96  md:ml-64 ml-28   flex gap-7 flex-wrap mt-36 ${changebg ? "bg-black text-white" : "bg-white text-black"}  `}>
+    <div className={`mb-96  md:ml-64 ml-19   flex gap-7 flex-wrap mt-36 ${changebg ? "bg-black text-white" : "bg-white text-black"}  `}>
       {/* Card 1 */}
       <div className='leading-7 hover:bg-[#e483212c] transition duration-300 rounded-lg '>
         <img onClick={()=>{navigate ('/video')}} className='w-full h-56 object-cover rounded ' src={'/travel.png'} alt="" />

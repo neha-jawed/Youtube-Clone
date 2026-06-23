@@ -42,10 +42,10 @@ const Nav = ({changebg , setchangebg ,open , setOpen}) => {
 {/* Change icon Dark to Ligth */}
   {changebg ? (
    <FaMoon onClick={()=> setchangebg (!changebg)}
-    className=' mr-6 cursor-pointer'/> )
+    className=' mr-6 cursor-pointer hidden md:block'/> )
    : (
    <FaSun onClick={()=> setchangebg (!changebg)}
-    className='mr-6 cursor-pointer' />) }
+    className='mr-6 cursor-pointer hidden md:block' />) }
 
   
     <button className=" md:gap-2    border border-gray-900 px-2 py-2 rounded-full flex items-center justify-center ">
